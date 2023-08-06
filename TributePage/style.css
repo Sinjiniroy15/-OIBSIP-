@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #723535;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ca6e6e;
+    color: #fff;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+}
+
+.content {
+    margin: 20px 0;
+}
+
+h1 {
+    color: #570c0cd7;
+    text-align: center;
+}
+h2 {
+    color: #460b0bd7;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid #9e4f4f;
+    padding-bottom: 5px;
+}
+
+p {
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ca6e6e;
+    color: #fff;
+}
+
+.sub-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+    color: #750c0c;
+}
+
+.gallery {
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.gallery h2 {
+    margin-top: 0;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.gallery img {
+    width: 400px;
+    margin: 10px;
+}
+
+.image-container p {
+    margin-left: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+/* .gallery img {
+    width: 400px;
+    margin: 10px;
+    
+} */
+
+.social-links {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.social-links h2 {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.social-links a:hover {
+    background-color: #555;
+}
